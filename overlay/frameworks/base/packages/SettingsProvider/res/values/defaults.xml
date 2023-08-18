@@ -30,5 +30,5 @@
     <bool name="def_sound_effects_enabled">false</bool>
 
     <!-- Default for Settings.Secure.VOLUME_PANEL_ON_LEFT -->
-    <bool name="def_volume_panel_on_left">true</bool>
+    <bool name="def_volume_panel_on_left">false</bool>
 </resources>

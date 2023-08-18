@@ -23,10 +23,10 @@
     <dimen name="status_bar_header_height_keyguard">29dp</dimen>
 
     <!-- the padding on the start of the statusbar -->
-    <dimen name="status_bar_padding_start">10dp</dimen>
+    <dimen name="status_bar_padding_start">5dp</dimen>
 
     <!-- the padding on the end of the statusbar -->
-    <dimen name="status_bar_padding_end">10dp</dimen>
+    <dimen name="status_bar_padding_end">5dp</dimen>
     
     <!-- Udfps animation -->
     <dimen name="udfps_animation_offset">30dp</dimen>
