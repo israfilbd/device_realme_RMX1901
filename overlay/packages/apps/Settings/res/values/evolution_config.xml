@@ -22,8 +22,7 @@
 <resources>
 
    <!-- Whether build status should be shown or not. -->
-    <bool name="config_show_build_status">true</bool>
-
+   
     <!-- Battery Health -->
     <bool name="config_supportBatteryHealth">true</bool>
     <string name="config_batDesCap">/sys/class/power_supply/battery/charge_full</string>
