@@ -908,9 +908,6 @@
     <!-- Whether device ignores the RSSNR signal implementation -->
     <bool name="config_ignoreRssnrSignalLevel">true</bool>
 
-    <!-- Whether device has a physical display cutout -->
-    <bool name="config_physicalDisplayCutout">true</bool>
-
     <!-- Whether to intercept inputs on screen off -->
     <bool name="config_enableKeyHandler">true</bool>
 
