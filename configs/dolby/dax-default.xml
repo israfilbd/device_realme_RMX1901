@@ -1913,4 +1913,16 @@
   <authorized_technologies sku_name="DAX3 Android" device="dax3_android" bundle="DAP MOBILE v1.3" format="2">
     <global_setting virtual_bass_process="2"/>
   </authorized_technologies>
+  <graphic-equalizer>
+    <geq-preset name="brilliant treble" id="0" max_edit_gain="192" min_edit_gain="-192">
+    </geq-preset>
+    <geq-preset name="bass boost" id="1" max_edit_gain="192" min_edit_gain="-192">
+    </geq-preset>
+    <geq-preset name="vocal boost" id="2" max_edit_gain="192" min_edit_gain="-192">
+    </geq-preset>
+    <geq-preset name="manual" id="3" max_edit_gain="192" min_edit_gain="-192">
+    </geq-preset>
+    <geq-preset name="flat" id="4" max_edit_gain="192" min_edit_gain="-192">
+    </geq-preset>
+  </graphic-equalizer>
 </device_data>
