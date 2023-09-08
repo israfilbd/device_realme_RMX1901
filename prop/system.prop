@@ -85,6 +85,20 @@ ro.com.google.ime.kb_pad_port_r=7
 ro.com.google.ime.kb_pad_land_l=14
 ro.com.google.ime.kb_pad_land_r=14
 
+# Logs
+persist.log.tag.AnalyticsService=S
+persist.log.tag.KernelCpuUidActiveTimeReader=S
+persist.log.tag.Tracer=S
+persist.log.tag.NearbySharing=S
+persist.log.tag.IntervalStats=S
+persist.log.tag.CompatibilityChangeReporter=S
+persist.log.tag.SQLiteLog=S
+persist.log.tag.wificond=S
+persist.log.tag.b/223498680=S
+persist.log.tag.TrafficStats=S
+persist.log.tag.ContrastColorUtil=S
+persist.log.tag.OpenGLRenderer=S
+
 # Graphics
 debug.sf.disable_backpressure=1
 debug.sf.enable_hwc_vds=1
