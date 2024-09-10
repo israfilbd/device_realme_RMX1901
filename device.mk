@@ -154,9 +154,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.display.mapper@4.0.vendor
 
 # Dexpreopt
-PRODUCT_DEXPREOPT_SPEED_APPS += \
-    SettingsGoogle \
-    SystemUIGoogle
 
 PRODUCT_DEX_PREOPT_DEFAULT_COMPILER_FILTER := verify
 PRODUCT_USE_PROFILE_FOR_BOOT_IMAGE := true
@@ -246,14 +243,6 @@ PRODUCT_COPY_FILES += \
 # Lights
 PRODUCT_PACKAGES += \
     android.hardware.lights-service.realme_sdm710
-
-# Lineage Health
-PRODUCT_PACKAGES += \
-    vendor.lineage.health-service.default
-
-# LiveDisplay
-PRODUCT_PACKAGES += \
-    vendor.lineage.livedisplay@2.0-service-sdm
 
 # Media
 PRODUCT_PACKAGES += \
@@ -456,27 +445,6 @@ PRODUCT_SOONG_NAMESPACES += \
 
 # SystemUI
 EXCLUDE_SYSTEMUI_TESTS := true
-
-# Telephony
-PRODUCT_PACKAGES += \
-    extphonelib \
-    extphonelib-product \
-    extphonelib.xml \
-    extphonelib_product.xml \
-    ims-ext-common \
-    ims_ext_common.xml \
-    qti-telephony-hidl-wrapper \
-    qti_telephony_hidl_wrapper.xml \
-    qti-telephony-hidl-wrapper-prd \
-    qti_telephony_hidl_wrapper_prd.xml \
-    qti-telephony-utils \
-    qti_telephony_utils.xml \
-    qti-telephony-utils-prd \
-    qti_telephony_utils_prd.xml \
-    telephony-ext
-
-PRODUCT_BOOT_JARS += \
-    telephony-ext
 
 # Thermal
 PRODUCT_PACKAGES += \

@@ -4,37 +4,20 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-# Inherit some common  AlphaDroid stuff
+# Inherit some common YAAP stuff
 TARGET_BOOT_ANIMATION_RES := 1080
-TARGET_HAS_UDFPS := true
-TARGET_SUPPORTS_QUICK_TAP := true
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/yaap/config/common_full_phone.mk)
 
-# Others Flag
-ALPHA_MAINTAINER := м∂_ιѕяαƒιℓ
-
-# TARGET_BUILD_PACKAGE options:
-# 1 - vanilla (default)
-# 2 - microg
-# 3 - gapps
-TARGET_BUILD_PACKAGE := 3
-
-# TARGET_LAUNCHER options:
-# 1 - stock (default)
-# 2 - lawnchair
-# 3 - pixel (valid only on gapps builds)
-TARGET_LAUNCHER := 1
+# YAAP configs
+TARGET_PROVIDES_POWERHAL := true
 
 # Inherit from RMX1901 device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
-# Sign builds
-PRODUCT_DEFAULT_DEV_CERTIFICATE := vendor/lineage-priv/keys/.android-certs/releasekey
-
 PRODUCT_BRAND := realme
 PRODUCT_DEVICE := RMX1901
 PRODUCT_MANUFACTURER := realme
-PRODUCT_NAME := lineage_RMX1901
+PRODUCT_NAME := yaap_RMX1901
 PRODUCT_MODEL := RMX1901
 
 PRODUCT_SYSTEM_NAME := RMX1901
