@@ -28,9 +28,6 @@ TARGET_LAUNCHER := 1
 # Inherit from RMX1901 device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
-# Viper
-$(call inherit-product, packages/apps/ViPER4AndroidFX/config.mk)
-
 # Sign builds
 PRODUCT_DEFAULT_DEV_CERTIFICATE := vendor/lineage-priv/keys/.android-certs/releasekey
 
