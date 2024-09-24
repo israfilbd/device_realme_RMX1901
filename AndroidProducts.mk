@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/yaap_RMX1901.mk
+    $(LOCAL_DIR)/blaze_RMX1901.mk
 
 COMMON_LUNCH_CHOICES := \
-    yaap_RMX1901-user \
-    yaap_RMX1901-userdebug \
-    yaap_RMX1901-eng
+    blaze_RMX1901-user \
+    blaze_RMX1901-userdebug \
+    blaze_RMX1901-eng
