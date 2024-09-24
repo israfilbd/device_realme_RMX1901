@@ -9,7 +9,7 @@ TARGET_BOOT_ANIMATION_RES := 1080
 $(call inherit-product, vendor/blaze/config/common_full_phone.mk)
 
 # Flags
-BLAZE_MAINTAINER := Md Israfil
+BLAZE_MAINTAINER := Md_Israfil
 WITH_GAPPS := true
 
 # Inherit from RMX1901 device
