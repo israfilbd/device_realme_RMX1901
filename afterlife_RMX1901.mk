@@ -6,6 +6,7 @@
 
 # Inherit some common Afterlife OS stuff
 TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_HAS_UDFPS := true
 TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_SUPPORTS_QUICK_TAP := true
 $(call inherit-product, vendor/afterlife/config/common_full_phone.mk)
